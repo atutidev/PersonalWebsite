@@ -1,0 +1,28 @@
+html {
+    font-size: 30px;
+}
+body{
+    background-color: #F3DFA2;
+    color: #231F20;
+}
+
+header {
+    background-color: #C29228;
+}
+
+
+a {
+    color: #231F20;
+}#a52508
+
+a:visited {
+    color: #ba3737;
+}
+
+a:hover, a:active {
+    color: #994636
+}
+
+footer {
+    background-color: #C29228;
+}
