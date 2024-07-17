@@ -5,6 +5,7 @@ body{
     margin: 0px;
 }
 
+
 header {
     position: fixed; /* Makes the header stay fixed at the top */
     top: 0; /* Positions it at the top of the viewport */
@@ -26,9 +27,38 @@ h1 {
     color: #231F20;
     text-align: center;
     margin-bottom: 50px;
-
    
 }
+
+h2 {
+    text-align: center;
+
+}
+
+.caption1 {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Optional for vertical centering within the element's height */
+
+}
+
+.portfolio-description {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Optional for vertical centering within the element's height */
+
+}
+
+.project-thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .center{
     padding-bottom: 50px;
 }

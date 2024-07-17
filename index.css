@@ -106,6 +106,7 @@ h2 {
 
 .intro {
     font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center; /* Optional for vertical centering within the element's height */
