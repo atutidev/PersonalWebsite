@@ -36,3 +36,9 @@ window.addEventListener('load', () => {
   heroImage.classList.add('fade-in'); // Add animation class (CSS definition required)
 });
 
+<script>
+  const houseElement = document.querySelector('.clickable-house');
+  houseElement.addEventListener('click', () => {
+    window.location.href = "https://github.com/atutidev/PersonalWebsite";
+  });
+</script>

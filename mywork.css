@@ -29,6 +29,13 @@ h1 {
     margin-bottom: 50px;
    
 }
+a {
+    color: #231F20;
+}
+
+a:hover, a:active {
+    color: #994636
+}
 
 h2 {
     text-align: center;
@@ -50,8 +57,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center; /* Optional for vertical centering within the element's height */
-
-}
+  }
 
 .project-thumbnail {
     display: flex;
