@@ -1,4 +1,8 @@
 
+
+
+/* setting width and height of html element*/
+
 body{
     
     background-color: #F3DFA2;
@@ -15,12 +19,36 @@ header {
 
 .menuitems {
     display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: left; /* Adjust as needed for desired vertical alignment */
+    margin-right: 5px; /* Adjust as needed for additional spacing */
+}
+  
+/*.menuitems {
+    display: flex;
     justify-content: space-between;
     align-items: left;
     margin-right: 5px; /* Adjust as needed for desired spacing */
-  }
+    
 
+.fade-in {
+    opacity: 2; /* Initially invisible */
+    transition: opacity 0.2s ease-in-out; /* Animation properties */
+}
+  
+.fade-in.active { /* Add the "active" state when the animation should play */
+    opacity: 1; /* Becomes fully visible */
+}
 
+.name-and-title {
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.5s ease-in-out; /* Animation properties (adjust duration as needed) */
+    position: absolute; /* Absolute positioning for animation */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset for slide-in effect */
+}
+  
 .tagline1 {
     text-align: center;
     font-size: 40px;
@@ -36,6 +64,7 @@ h1 {
     font-size: 70px;
     color: #231F20;
     text-align: center;
+   
 }
     
 h2 {
@@ -52,6 +81,11 @@ h2 {
     
 }
 
+  
+.name-and-title.active { /* Remove this section, not needed anymore */
+    opacity: 1; /* Becomes fully visible */
+}
+   
 .image-container1 {
     display: flex;
     justify-content: center;
@@ -83,20 +117,6 @@ h2 {
     justify-content: center;
     align-items: center;
 }
-
-.testimonial-text {
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-  }
-.testimonial-author {
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   
 a {
     color: #231F20;
